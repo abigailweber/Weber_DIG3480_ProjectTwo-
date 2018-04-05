@@ -1,0 +1,50 @@
+.background    { background-image: url("images/BG.png");
+                 background-size: 600px 600px;
+                 table-layout: auto;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(59, 156, 251);
+                  background-image: url("images/17.png");
+                  background-size: 20px 20px;}
+.wall          { background-image: url("images/14.png");
+                 background-size: 20px 20px;}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/Mushroom_1.png");
+          background-size: 12px 12px;}
+.player { background-image: url("images/walk.png");
+          background-size: 30px 30px; }
+.playerLeft { background-image: url("images/walkleft.png");
+              background-size: 30px 30px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.bigJ {
+	width: 100px;
+	height: 100px;
+	background-image: url("images/Crate.png");
+   background-size: 16px 16px;
+		   box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+.bigJUMP .player { background: url('images/big jump.png');
+                    background-size: 30px, 30px }
+.bigJUMP .playerLeft { background-image: url("images/big jumpleft.png");
+                      background-size: 30px 30px;}
+
+.bee { background-image: url("images/bee.png");
+          background-size: 20px 17px; }
+
+.lost .player {
+   background-image: url('images/dead.png');
+   background-size: 40px 30px;
+}
+.won .player {
+  background-image: url('images/win.png');
+  background-size: 30px 30px;
+  }
